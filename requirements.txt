@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+gitpython
+langchain
+chromadb
+python-dotenv
+tqdm
+groq
