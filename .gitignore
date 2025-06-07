@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Environment variable files
+.env
+.env.*
+
+# FastAPI static and generated files
+/static/
+*.db
+
+# Pytest / testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# MyPy, Pylint, Coverage, etc.
+.mypy_cache/
+.dmypy.json
+.pyre/
+*.cover
+*.log
+
+# VS Code and other IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Build / Distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+MANIFEST
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Pydantic cache (if any generated models used)
+__pydantic__/  
+
+# Uvicorn logs (FastAPI dev server)
+*.log
+
+# Docker
+docker-compose.override.yml
