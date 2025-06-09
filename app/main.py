@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-from app.rag_pipeline import generate_readme_from_repo
+from rag_pipeline import generate_readme_from_repo
 
 app = FastAPI()
 
